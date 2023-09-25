@@ -1,0 +1,47 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+
+
+.post-it {
+    width: 130px;
+    display: inline-block;
+    margin: 10px;
+    
+}
+img {
+    width: 100%;
+}
+#post-it-1{
+    background-color: aliceblue;
+    margin-top: 0px;
+    transform: rotate(10deg);
+}
+#post-it-2{
+    background-color:aqua;
+    transform: rotate(-4deg);
+}
+#post-it-3{
+    transform: rotate(2deg);
+    background-color: antiquewhite;
+}
+#post-it-4{
+    transform: rotate(2deg);
+}
+#post-it-4 p{
+    color: aliceblue;
+    padding:0;
+    margin: -30px;
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+}
+p {
+    font-family: impact;
+    padding: 20px 20px 60px 20px;
+}
