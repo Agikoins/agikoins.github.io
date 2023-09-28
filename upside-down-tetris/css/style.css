@@ -1,0 +1,48 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Upside-down Tetris assignment.
+
+    Good luck, and have fun!
+*/
+div{
+    margin: .7px;
+}
+.yellowbox{
+    background-color: yellow;
+    padding:30px;
+    display:inline-block;
+    border: 10px solid rgb(183, 198, 46);
+}
+.blueline{
+    background-color: aqua;
+    padding: 10px 70px;
+    margin-top: -40px;
+    display: inline-block;
+    border: 10px solid rgb(38, 191, 208);
+}
+.purple2{
+    background-color: plum;
+    padding:10px 30px;
+    display: inline-block;
+    border: 10px solid rgb(223, 85, 188);
+}
+.orange1{
+    background-color: orange;
+    padding: 10px;
+    display: inline-block;
+    border: 10px solid rgb(194, 137, 63);
+}
+#block2{
+    float: right;
+    margin-top: 5px;
+    margin-right: 20p;
+    display: inline;
+}
+#block6{
+    margin-left: 40px;
+}
+#block8{
+    margin-top: 2px;
+}
