@@ -34,12 +34,7 @@ div{
     display: inline-block;
     border: 10px solid rgb(194, 137, 63);
 }
-#block2{
-    float: right;
-    margin-top: 5px;
-    margin-right: 20p;
-    display: inline;
-}
+
 #block6{
     margin-left: 40px;
 }

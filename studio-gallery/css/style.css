@@ -1,0 +1,41 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+#poster1{
+    width: 60%;
+    margin-top: 30px;
+    box-shadow: inset 50px rgb(255, 26, 26);
+    border: 2px solid rgb(255, 255, 255);
+}
+.poster1 border{
+    box-shadow: inset 5000px rgb(255, 26, 26);
+}
+#poster2
+{
+    width: 30%;
+    margin-top: 30px;
+   
+    border: 2px solid rgb(255, 255, 255);
+   
+}
+#poster3
+{
+    width: 30%;
+    border: 2px solid rgb(255, 255, 255);
+    display: inline;
+}
+.poster-border1 {
+    /*copied code*/
+    border: 10px solid #654f2b;
+    margin: 70px 12px 0px;
+    box-shadow: -2px 2px 2px #444444;
+
+    background-color: gray;
+    padding-bottom: 20px;
+}
