@@ -1,0 +1,99 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#license {
+    background-image: linear-gradient(to left, rgb(208, 149, 77),
+     rgb(253, 255, 239));
+    border-radius: 5%;
+    width: 700px;
+    height: 400px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 10px;
+    padding-left: 40px;
+}
+h1{
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-size: 50px;
+}
+h4{
+    background-color: purple;
+    display:inline-block;
+    width: 350px;
+    height:40px;
+    font-family: impact;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+#id-and-expiration div{
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+}
+#id-and-expiration div{
+    margin-top: 0px;
+}
+#id-and-expiration span{
+    color: red;
+}
+#address{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#small-pic img{
+    width: 90px;
+    margin-top: 20px;
+    opacity: .8;
+    border-radius: 20%;
+    display: inline-block;
+}
+
+#personal-info div{
+    display: inline-block;
+    margin-right: 10px;
+}
+#data-left div, #data-right div{
+    display: block;
+}
+
+#left-side{
+    display: inline-block;
+
+}
+#right-side{
+    width:30%;
+    float: right;
+    margin-right: 25px;
+}
+#signature{
+    font-family: cursive;
+}
+#right-side img{
+    width:100%;
+    display: inline-block;
+}
+#donor-and-real-id{
+    text-align: center;
+    margin-top: 10px;
+}
+#donor{
+    color: red;
+    display: inline-block;
+    margin-right: 5px;
+}
+#real-id{
+    background-color: yellow;
+    display: inline-block;
+    color: white;
+    border-radius: 50%;
+}
