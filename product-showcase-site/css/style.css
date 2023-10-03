@@ -1,0 +1,60 @@
+.product{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 5%;
+}
+.product img {
+    width: 60%;
+    max-width: 60%;
+}
+.title{
+    font-family: sans-serif;
+    margin:0px;
+    padding: 5%;
+    font-variant-caps: all-small-caps;
+    font-size: 140%;
+}
+hr{
+    width: 40%;
+    border-bottom: solid 2px;
+    margin-bottom: 10%;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    font-variant-caps: all-petite-caps;
+    margin-top: 5%;
+    line-height: 70%;
+}
+#product1{
+    background-color: rgb(239, 240, 242);
+    padding: 10vw 10vw 4vw 10vw;
+}
+#dark.buy{
+    font-family: impact;
+    font-variant-caps: all-petite-caps;
+    font-size: 200%;
+    background-color: black;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    border-radius: 10%;
+    color: aliceblue;
+    padding: 3%;
+    margin-bottom:
+}
+#light.buy{
+    font-family: impact;
+    font-variant-caps: all-petite-caps;
+    border-style: solid;
+    font-size: 200%;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    border-radius: 10%;
+    color: rgb(0, 0, 0);
+    padding: 3%;
+    margin-bottom:
+}

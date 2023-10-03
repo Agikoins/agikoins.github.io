@@ -68,17 +68,18 @@ h4{
 
 #left-side{
     display: inline-block;
-
 }
 #right-side{
     width:30%;
-    float: right;
-    margin-right: 25px;
+    margin-left: 35px;
+    
+    display: inline-block;
 }
 #signature{
     font-family: cursive;
 }
 #right-side img{
+
     width:100%;
     display: inline-block;
 }
@@ -96,4 +97,9 @@ h4{
     display: inline-block;
     color: white;
     border-radius: 50%;
+}
+#signature{
+    margin-left: 35px;
+    font-size: 30px;
+    text-align: center;
 }
