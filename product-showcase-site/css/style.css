@@ -1,3 +1,4 @@
+
 .product{
     width: 50%;
     margin: auto;
@@ -28,21 +29,26 @@ h1{
     line-height: 70%;
 }
 #product1{
+    margin: 0px auto;
+    
+}
+.darkbg {
     background-color: rgb(239, 240, 242);
-    padding: 10vw 10vw 4vw 10vw;
+    
 }
 #dark.buy{
     font-family: impact;
     font-variant-caps: all-petite-caps;
     font-size: 200%;
     background-color: black;
-    width: 30%;
+    width: 20%;
+    min-width: 150px;
     text-align: center;
     margin: auto;
     border-radius: 10%;
     color: aliceblue;
     padding: 3%;
-    margin-bottom:
+    display: inline-block;
 }
 #light.buy{
     font-family: impact;
@@ -50,14 +56,18 @@ h1{
     border-style: solid;
     font-size: 200%;
     background-color: rgb(255, 255, 255);
-    width: 50%;
+    width: 20%;
+    min-width: 150px;
     text-align: center;
     margin: auto;
     border-radius: 10%;
     color: rgb(0, 0, 0);
     padding: 3%;
-    margin-bottom:
+    display: inline-block;
 }
 #product2 span{
     color: rgb(220, 45, 45);
+}
+a .buy{
+    display: inline-block;
 }

@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+#two-columns {
+    display: flex;
+    
+}
+#main-content {
+    flex: 1;
+   
+}
