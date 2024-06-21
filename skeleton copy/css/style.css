@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "main-content sidebar-content";
+}
+#side-bar {
+    grid-area: sidebar-content;
+}
+#main-content {
+    grid-area: main-content;
+}

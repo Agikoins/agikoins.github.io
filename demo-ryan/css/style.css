@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #AAA;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar main";
+    grid-template-columns: 250px 1fr;
+}
+
+#header {
+    grid-area: header;
+    padding: 0px 36px;
+    background-color: #111;
+  
+}
+
+#sidebar {
+    grid-area: sidebar;
+    padding: 0px 24px;
+    background-color: #5c5a5a;
+}
+
+#main {
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EEE;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+/* header styles */
+
+#header a {
+    text-decoration: none;
+}
+
+#header #me {
+    color: #f784c9;
+}
+
+#header #tube {
+    background-color: rgb(0, 255, 145);
+    color: #111;
+    padding: 5px;
+    border-radius: 10px 4px;
+    margin-left: 2px;
+}
+
+/* sidebar styles */
+
+#sidebar ul {
+    margin: 0px;
+    padding: 12px 0px;
+    list-style-type: none;
+    border-bottom: solid #AAA;
+}
+
+#sidebar ul a {
+    text-decoration: none;
+    color: #eee;
+    display: block;
+    padding: 12px;
+}
+
+#sidebar ul a:hover {
+    background-color: rgb(0, 255, 145);
+    color: #111;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+/* metube item styles */
+
+.metube-item {
+    flex: 240px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+
+.metube-item:hover {
+   background-color: #EEE;
+   padding: 10px;
+}
+
+.metube-item .thumbnail {
+    aspect-ratio: 16/9;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.metube-item h4 {
+    margin: 8px;
+}
+
+.metube-item h4 a {
+    text-decoration: none;
+    color: #111;
+    display: block;
+}
+
+.metube-item h4 a:hover {
+  text-decoration: underline;
+}
+
+.metube-item .video-details {
+    margin: 8px;
+    font-size: 14px;
+}
+
+.metube-item .video-channel {
+    margin-bottom: 4px;
+}

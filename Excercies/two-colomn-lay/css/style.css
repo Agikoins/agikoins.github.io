@@ -1,0 +1,61 @@
+body {
+  
+}
+
+#two-columns {
+    display: flex;
+    border: solid;
+}
+
+#sidebar-content{
+    background-color: rgb(173, 230, 195);
+    width: 240px;
+    padding: 24px;
+}
+
+#sidebar-content h2 {
+    border-bottom: 2px solid;
+    padding-bottom: 8px;
+}
+
+#sidebar-content ul {
+    list-style-type: none;
+    padding: 8px;
+}
+
+#sidebar-content ul a {
+    color: #111;
+    text-decoration: none;
+}
+
+#sidebar-content ul li {
+    padding: 4px 8px;
+    border-left: 5px solid green;
+}
+
+#main-content {
+    background-color: rgb(253, 253, 253);
+    flex: 1;
+    padding: 48px;
+}
+
+#side-by-side {
+    display: flex;
+}
+
+#side-left {
+    flex: 2;
+}
+
+#side-right {
+    width: 50%;
+}
+
+#side-right img {
+    width: 100%;
+    padding: 10px;
+}
+
+#image1 {
+    float: right;
+}
