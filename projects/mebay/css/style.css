@@ -25,7 +25,6 @@ body {
 #left-column {
     grid-area: left;
     padding-top: 24px;
-    background-color: antiquewhite;
 }
 
 #middle-column {
