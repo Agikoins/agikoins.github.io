@@ -73,7 +73,7 @@ body {
     flex-direction: column;
     gap: 5px;
     padding-right: 15px;
-    align-content: flex-end;
+    align-items: flex-end;
 }
 
 #thumbnail-images img {
