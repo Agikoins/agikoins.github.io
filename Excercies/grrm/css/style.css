@@ -443,7 +443,7 @@ body {
 
 @media screen and (max-width: 1000px) and (min-width: 801px) {
     #grid-layout {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: 
             "header  header  header"
             "navbar  navbar  navbar"
