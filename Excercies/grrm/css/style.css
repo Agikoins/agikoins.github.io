@@ -495,16 +495,15 @@ body {
     }
     #nav {
         flex-wrap: wrap;
-        /* width: 100vw; */
-     
+       
        
         align-items: center;
         justify-content: center;
-        margin: auto;
+
     }
     #nav a {
         /* i don't get how this is working */
-        width: 100vw;
+        /* width: 100vw; */
     }
 }
 #banner-container,
