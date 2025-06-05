@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+#main-column {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+   justify-content: center;
+
+}
+
+
+
+#main-column img {
+    width: 100%;
+    max-width: 200px;
+
+}
+
+h3 {
+    display: block;
+    text-align: center;
+}
+
+@media screen {
+    
+}
