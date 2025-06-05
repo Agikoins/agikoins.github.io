@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(86, 24, 109);
 }   
 
 #main-column {
@@ -21,7 +21,7 @@
 }
 
 h3 {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-size: 40px;
     display: block;
     text-align: center;
