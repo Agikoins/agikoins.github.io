@@ -10,10 +10,9 @@
     justify-content: center;
     max-width: 800px;
     margin: 0px auto;
+    margin-bottom: 70px;
 
 }
-
-
 
 #main-column img {
     width: 100%;
@@ -27,8 +26,6 @@ h3 {
     font-size: 40px;
     display: block;
     text-align: center;
+    font-family: sans-serif;
 }
 
-@media screen {
-    
-}
