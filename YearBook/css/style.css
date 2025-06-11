@@ -29,3 +29,104 @@ h3 {
     font-family: sans-serif;
 }
 
+
+
+#main-column > div img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6%;
+}
+
+/* shimmer layer */
+#main-column > div {
+    position: relative;
+    overflow: hidden;
+    border-radius: 6%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* shimmer effect */
+#main-column > div::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        120deg,
+        transparent 0%,
+        rgba(49, 216, 238, 0.949) 50%,
+        transparent 100%
+    );
+    transform: rotate(-25deg);
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.5s ease;
+    pointer-events: none;
+}
+
+#main-column > div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(217, 29, 220, 0.5);
+}
+
+#main-column > div:hover::before {
+    opacity: 1;
+    transform: rotate(-25deg) translateY(100%);
+}
+
+/*hail Mary*/
+#filters {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#filters input {
+    display: none;
+}
+
+#filters label {
+    background: white;
+    color: black;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+#filters label:hover {
+    background: #ddd;
+}
+
+/* Default: show all */
+#all:checked ~ #main-column > div {
+    display: block;
+}
+
+/* Filter for 6024 only */
+#cohort-6024:checked ~ #main-column > div {
+    display: none;
+}
+#cohort-6024:checked ~ #main-column > div.6024 {
+    display: block;
+}
+
+/* Filter for 6027 only */
+#cohort-6027:checked ~ #main-column > div {
+    display: none;
+}
+#cohort-6027:checked ~ #main-column > div.6027 {
+    display: block;
+}
+
+#filters input[type="radio"]:checked + label {
+    background: #00ffff;
+    color: black;
+    box-shadow: 0 0 8px #00ffff;
+    font-weight: bolder;
+}
